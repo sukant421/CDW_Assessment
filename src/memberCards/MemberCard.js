@@ -1,14 +1,15 @@
 import React from "react";
 import { Col, Row, Card, CardBody } from "reactstrap";
+import "./MemberCard.css";
 
 export default function MemberCard({ cardData = {} }) {
   return (
     <div>
-      <Card className="border-0">
+      <Card className="border-0 member-card">
         <CardBody
           style={{ color: "#565656", borderRadius: "10px" }}
           role="button"
-          className="shadow"
+          className="shadow member-card-body"
         >
           <Row>
             <Col md={3}>
