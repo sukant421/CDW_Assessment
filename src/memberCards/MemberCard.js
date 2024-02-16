@@ -18,7 +18,6 @@ export default function MemberCard({ cardData = {} }) {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
-                  border: "1px solid red",
                   width: "fit-content",
                   borderRadius: "50%",
                   overflow: "hidden",

@@ -20,7 +20,7 @@ export default function BlockView({ role = "", data = [] }) {
               data.length > 1 &&
               data.map((item, index) => {
                 return (
-                  <Col md={3} className=" mb-4">
+                  <Col md={3} className="mb-4">
                     <MemberCard cardData={item} />
                   </Col>
                 );

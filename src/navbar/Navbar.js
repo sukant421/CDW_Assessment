@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, NavbarBrand, Row, Col, Input } from "reactstrap";
+import { Navbar, Row, Col, Input } from "reactstrap";
 import { Search } from "react-bootstrap-icons";
 
 export default function NavBar() {
