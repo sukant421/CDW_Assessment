@@ -5,7 +5,7 @@ import { Search } from "react-bootstrap-icons";
 export default function NavBar() {
   return (
     <div>
-      <Navbar className="my-2 p-3" style={{ backgroundColor: "#84a3f6" }}>
+      <Navbar className="p-3" style={{ backgroundColor: "#84a3f6" }}>
         <div
           style={{
             color: "white",

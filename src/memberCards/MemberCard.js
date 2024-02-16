@@ -36,14 +36,14 @@ export default function MemberCard({ cardData = {} }) {
             <Col md={9}>
               <div>
                 {cardData && cardData.first_name && cardData.last_name && (
-                  <div style={{ fontWeight: 400, fontSize: "16px" }}>
+                  <div style={{ fontWeight: 400, fontSize: "17px" }}>
                     <strong>
                       {`${cardData.first_name} ${cardData.last_name}`}
                     </strong>
                   </div>
                 )}
                 {cardData && cardData.email && (
-                  <div style={{ fontWeight: 200, fontSize: "15px" }}>
+                  <div style={{ fontWeight: 200, fontSize: "12px" }}>
                     {cardData.email}
                   </div>
                 )}

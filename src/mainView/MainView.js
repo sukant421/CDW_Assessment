@@ -49,9 +49,9 @@ export default function MainView() {
       <div
         style={{
           position: "fixed",
-          bottom: "40px",
-          right: "50px",
-          zIndex: "2", // Ensure the button appears above the data
+          bottom: "5vh",
+          right: "5vw",
+          zIndex: "2",
         }}
       >
         <div
